@@ -1,2 +1,21 @@
-PRUEBAS DE GIT REMOTE
-:q
+CONECTAR UN REPOSITORIO DE GITHUB A NUESTRO REPOSITORIO LOCAL(GIT)
+
+1.) GUARDAR LA URL HTTPS O SSH DEL REPOSITORIO DE GITHUB, EN LA TERMINAL COLOCAR:
+git remote add origin url(https://github.com/sebastianMartinez25/HyperBlog.git)
+
+2.)VERIFICAR QUE LA URL SE HAYA GUARDADO CORRECTAMENTE:
+git remote
+git remote -v 
+
+3.) TRAER LA VERSIÓN DEL REPOSITORIO REMOTO, POR LO GENERAL SE CREA CON UN ARCHIVO:
+README.md POR LO TANTO, SE PUEDE HACER UN git fetch y git merge o un git pull.
+
+inicialmente quedaría:
+
+git pull origin main --allow-unrelated-histories
+
+4.) POR ULTIMO, SE GUARDAN LOS CAMBIOS DE NUESTRO REPOSITORIO LOCAL EN GITHUB:
+
+git ush origin main
+
+-----SEBASTIAN MARTINEZ------
