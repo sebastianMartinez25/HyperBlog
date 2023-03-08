@@ -18,4 +18,3 @@ git pull origin main --allow-unrelated-histories
 
 git ush origin main
 
------SEBASTIAN MARTINEZ------
