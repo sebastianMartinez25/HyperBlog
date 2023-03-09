@@ -16,5 +16,9 @@ git pull origin main --allow-unrelated-histories
 
 4.) POR ULTIMO, SE GUARDAN LOS CAMBIOS DE NUESTRO REPOSITORIO LOCAL EN GITHUB:
 
-git ush origin main
+git push origin main
 
+----------------------
+cambiar en un REPOSITORIO LOCAL de MASTER a MAIN:
+
+ git branch -M main
