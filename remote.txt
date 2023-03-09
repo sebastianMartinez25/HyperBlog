@@ -22,3 +22,7 @@ git push origin main
 cambiar en un REPOSITORIO LOCAL de MASTER a MAIN:
 
  git branch -M main
+---------------------------------------------------------------------------
+CAMBIAR LA CONTRASEÑA OPCIONAL QUE PERMITE GIT, PARA MAYOR SEGURIDAD CON LA LLAVE PRIVADA SSH:
+
+ssh-keygen -f ~/.ssh/id_rsa -p
